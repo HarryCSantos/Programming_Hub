@@ -8,21 +8,23 @@ namespace AddTwoNumbers
 {
     class AddTwoNumbers
     {
-        static void Main(string[]args)
+        static void Main(string[] args)
         {
-            int number1,number2,sum;
+            int number1,number2
 
             Console.Write("Enter first number:");
             number1 =
             int.Parse(Console.ReadLine());
 
-            Console.Write("\nEnter second number:"):
+            Console.Write("\nEnter second number:");
             number2 =
             int.Parse(Console.ReadLine());
 
             //logic of adding two numbers sum=number1 + number2;
 
-            Console.Write("\nSum of the 2 numbers is:"+sum);
+            int Result;
+            Result = number1 + number2;
+            Console.Write("\nSum of the 2 numbers is:", + Result);
             Console.ReadLine();
         }
     }
