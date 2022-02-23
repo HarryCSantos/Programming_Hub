@@ -9,6 +9,8 @@ namespace ArrayListExample
         {
             //creating arraylist
             ArrayList al= new ArrayList();
+
+            //adding object in arraylist
             al.Add("Java");
             al.Add("C");
             al.Add("C++");
@@ -19,7 +21,7 @@ namespace ArrayListExample
             //Using Enhance for-loop
             foreach(String str in al)
             {
-                Console.Write("/n"+str);
+                Console.Write( str);
             }
             Console.ReadLine();
         }
