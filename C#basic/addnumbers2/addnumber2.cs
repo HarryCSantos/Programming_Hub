@@ -15,6 +15,13 @@ namespace ArrayListExample
             al.Add("PHP");
 
             Console.Write("Contents of ArrayList: ");
+
+            //Using Enhance for-loop
+            foreach(String str in al)
+            {
+                Console.Write("/n"+str);
+            }
+            Console.ReadLine();
         }
     }
 }
