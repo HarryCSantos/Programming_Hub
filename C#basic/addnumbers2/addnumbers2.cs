@@ -21,7 +21,7 @@ namespace ArrayListExample
             //Using Enhance for-loop
             foreach(String str in al)
             {
-                Console.Write( str);
+                Console.Write("\n"+str);
             }
             Console.ReadLine();
         }
