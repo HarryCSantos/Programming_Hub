@@ -6,7 +6,7 @@ namespace GettingInput
 	{
 		static void Main()
 		{
-
+			Console.WriteLine("How old are you?");
 		}
 	}
 }
