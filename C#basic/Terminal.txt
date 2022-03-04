@@ -8,7 +8,7 @@ namespace GettingInput
 		{
 			Console.WriteLine("How old are you?");
 			string input = Console.ReadLine();
-			Console.WriteLine($"You are {input} years old!");
+			Console.WriteLine("You are {input} years old!");
 		}
 	}
 }
